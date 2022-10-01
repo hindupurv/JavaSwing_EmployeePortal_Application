@@ -18,7 +18,7 @@ import javax.swing.table.TableRowSorter;
 
 /**
  *
- * @author varshahindupur-002935078-Northeastern University
+ * @author varshahindupur-002935078-Northeastern University new
  */
 public class MainPage extends javax.swing.JFrame {
 
