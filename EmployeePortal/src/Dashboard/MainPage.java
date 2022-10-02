@@ -396,20 +396,21 @@ public class MainPage extends javax.swing.JFrame {
             model.addRow(new Object[]{name, empid, age, gender, startdate, level, teaminfo,
                 positiontitle, cellphoneno, email, ImageLabel});
 
-            Name.setText("");
-            EmpID.setText("");
-            Age.setText("");
-            Gender.setSelectedIndex(0);
-            StartDate.setText("");
+            Name.setText("Enter Name:");
+            EmpID.setText("Enter EmpID");
+            Age.setText("Age");
+            Gender.setSelectedIndex(1);
+            StartDate.setText("Enter in DD-MM-YYYY format");
             Level.setSelectedIndex(0);
-            TeamInfo.setText("");
-            PositionTitle.setText("");
-            CellPhoneNo.setText("");
-            EmailAdd.setText("");
+            TeamInfo.setText("Enter Team Name");
+            PositionTitle.setText("Enter PositionTitle");
+            CellPhoneNo.setText("Enter CellPhoneNo");
+            EmailAdd.setText("Enter Email");
             ImageText.setText("");
-            //Image.removeAll();
-
         }
+        
+        
+        
 
     }//GEN-LAST:event_BtnCreateActionPerformed
     class myTableCellRenderer implements TableCellRenderer {
