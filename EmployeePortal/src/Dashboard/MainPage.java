@@ -358,6 +358,12 @@ public class MainPage extends javax.swing.JFrame {
 
     private void EmailAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EmailAddActionPerformed
         // TODO add your handling code here:
+//        JOptionPane.showMessageDialog(null, "button pressed");
+        String email = EmailAdd.getText();
+        if(EmailValidation.isValid(email)== false)
+        {
+            JOptionPane.showMessageDialog(null, "Enter in Format - a@gmail.com");
+        }
     }//GEN-LAST:event_EmailAddActionPerformed
 
 
