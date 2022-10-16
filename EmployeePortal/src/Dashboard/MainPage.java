@@ -511,7 +511,7 @@ public class MainPage extends javax.swing.JFrame {
         DefaultTableModel model = (DefaultTableModel) EmplTable.getModel();
 
         //set data to text field when row is selected
-        String TableName = model.getValueAt(EmplTable.getSelectedRow(), 0).toString();
+        String TableName = model.getValueAt(git .getSelectedRow(), 0).toString();
         String TableEmpID = model.getValueAt(EmplTable.getSelectedRow(), 1).toString();
         String TableAge = model.getValueAt(EmplTable.getSelectedRow(), 2).toString();
         String TableGender = model.getValueAt(EmplTable.getSelectedRow(), 3).toString();
